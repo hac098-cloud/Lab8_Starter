@@ -74,7 +74,7 @@ function initializeServiceWorker() {
  */
 async function getRecipes() {
   // A1. Check localStorage
-  const storedRecipes = localStorage.getItem('recipes');
+  const storedRecipes = localStorage.getItem('lab8-recipes');
 
   if (storedRecipes) {
     return JSON.parse(storedRecipes);
@@ -118,7 +118,7 @@ async function getRecipes() {
  * @param {Array<Object>} recipes An array of recipes
  */
 function saveRecipesToStorage(recipes) {
-  localStorage.setItem('recipes', JSON.stringify(recipes));
+  localStorage.setItem('lab8-recipes', JSON.stringify(recipes));
 }
 
 /**
