@@ -1,7 +1,7 @@
 // sw.js - This file needs to be in the root of the directory to work,
 //         so do not move it next to the other scripts
 
-const CACHE_NAME = 'lab-8-starter';
+const CACHE_NAME = 'lab-8-starter.v3';
 
 const RECIPE_URLS = [
   'https://adarsh249.github.io/Lab8-Starter/recipes/1_50-thanksgiving-side-dishes.json',
